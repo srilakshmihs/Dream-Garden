@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="formstyle.css">
+
+    <title>Registration form</title>
+    <script type="text/javascript" src="form.js"></script>
+    <script type="text/javascript" src="sub.js"></script>
+    
+   
+ </head>
+  
+  <body style="background-color:darkgrey">
+     <script>
+          function myFun(){
+               var x =document.getElementById("invalidCheck");
+               if(x.checked){
+                    window.location.href="http://www.w3schools.com";
+               }
+          }
+     </script>
+        <nav class="navbar navbar-dark bg-dark justify-content-between" style="height:5rem;">
+            <a class="navbar-brand " href="event.html"style="color: aliceblue;"><h3>Dream Garden</h3></a>
+       </nav> 
+       <div class="tophead" style="padding-top: 3em;">
+            <h1 style="text-align: center;">Hey!, Dream Garden Welcomes You!</h1> 
+           <h4 style="text-align: center;">Your Dream our Aim</h4>
+      </div>
+   
+    
+     <div class="container card p-4" style="background-color:darkorange;margin-top:3%;margin-bottom:3%">
+          <form>
+                <div class="form-row">
+                      <div class="form-group col-md-6">
+                          <label for="name"> First Name</label>
+                          <input type="text" class="form-control" id="firstname" placeholder="First Name">
+                      </div>
+               </div>
+              <div class="form-row">
+                  <div class="form-group col-md-6">
+                       <label for="name"> Last Name</label>
+                       <input type="text" class="form-control" id="lastname" placeholder="Last Name">
+                  </div>
+              </div>
+     
+         </form>
+         <form>
+            <div class="form-row">
+                 <div class="form-group col-md-6">
+                  <label for="inputEmail4">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+       </div>
+        <div class="form-group">
+             <label for="inputAddress">Address 1</label>
+             <input type="text" class="form-control" id="inputAddress" placeholder="ex: #53,st name,colony">
+        </div>
+        <div class="form-group">
+             <label for="inputAddress2">Address 2</label>
+             <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">State</label>
+            <select id="inputState" class="form-control">
+              
+              <option>  </option>
+              <option>Andhra Pradesh</option>
+              <option>Arunachal Pradesh</option>
+              <option>Aassam</option>
+              <option>Bihar </option>
+              <option>Chattisgarh</option>
+              <option>Goa</option>
+              <option>Gujarath</option>
+              <option>Haryana</option>
+              <option>Himachal Pradesh</option>
+              <option>Jharkhand</option>
+              <option>Karnataka</option>
+              <option>kerala</option>
+              <option>Madhya Pradesh</option>
+              <option>Maharastra</option>
+              <option>Manipur</option>
+              <option>Meghalaya</option>
+              <option>Mizoram</option>
+              <option>Nagaland</option>
+              <option>Odisha</option>
+              <option>Punjab</option>
+              <option>Rajasthan</option>
+              <option>sikkim</option>
+              <option>Tamil Nadu</option>
+              <option>Telangan</option>
+              <option>tripura</option>
+              <option>Uttar Pradesh</option>
+              <option>Uttarkhand</option>
+              <option>West Bengal</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="phno">Phone Number</label>
+              <input type="tel" class="form-control" id="phno">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="eventdate">Date of the Event </label>
+                <input type="date" class="form-control" id="eventdate" placeholder="DD/MM/YYYY">
+           </div>
+       </div>
+       <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="eventtime">Check in Time </label>
+            <input type="time" class="form-control" id="eventtime" placeholder=" ">
+       </div>
+   </div>
+   <div class="form-row">
+    <div class="form-group col-md-6">
+        <label for="eventdate">Check Out Date </label>
+        <input type="date" class="form-control" id="eventdate" placeholder="DD/MM/YYYY">
+   </div>
+</div>
+   <div class="form-row">
+    <div class="form-group col-md-6">
+        <label for="audience">Expected no of Gathering </label>
+        <input type="text"  class="form-control" id="eventtime" placeholder=" ">
+   </div>
+</div>
+<div class="form-row">
+     <div class="input-group mb-3 col-md-6">
+          <div class="input-group-prepend">
+               <label class="input-group-text" for="inputGroupSelect01">Type of Event</label>
+        </div>
+        <select class="custom-select" id="inputGroupSelect01">
+          <option selected>Choose...</option>
+          <option value="1">Birthday</option>
+          <option value="2">Engagement</option>
+          <option value="4">Wedding</option>
+          <option value="5">Baby Shower</option>
+          <option value="6">Naming Ceremony</option>
+          <option value="7">Pooja</option>
+          <option value="8">Party</option>
+          <option value="9">Concert</option>
+        </select>
+     </div>
+      
+</div>
+<div class="form-row" style="text-emphasis: size 30px;">
+     <div><p><h5>Place of Event :</h5><p></div>
+</div>
+<div class="form-row"></div>
+     <input type="radio" id="client" name="palcebutton" value="1" onclick="placechoice(1)">
+     <label for="client">By Client </label>
+     <br>
+ 
+
+<div class="form-row"> </div>
+    <input type="radio" id="company" name="palcebutton" value="2" onclick="placechoice(2)">
+    <label for="company">By Company </label>
+    <br>
+    
+
+<div class="form-row"> </div>
+   <input type="radio" id="later"  name="palcebutton" value="3" onclick="placechoice(3)">
+   <label for="later">Decided Later </label> 
+  
+
+
+<div class="form-row">
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1"><p><h5>Event Description :</h5></p></label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" style="width: 60vw;"></textarea>
+      </div>
+</div>
+<div class="form-row">
+    <div><p><h5>Are you an existing customer?</h5></p></div>
+</div>
+
+<div class="form-row">
+     <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">Yes</label>
+     </div>
+      <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+          <label class="form-check-label" for="inlineRadio2">No</label>
+      </div>
+     
+</div>
+<br>
+ <!-- <div class="form-group">
+      <div class="form-check">
+           <input class="form-check-input" type="checkbox" value="" id="invalidCheck">
+           <label class="form-check-label" for="invalidCheck">Agree to terms and conditions</label>  
+           <div class="invalid-feedback">
+                You must agree before submitting.
+           </div>
+     </div>
+</div>  -->
+<!--<div>
+     <button class="btn btn-primary" onclick="myFun()">Confirm Your Registration</button>
+
+</div> -->
+    <a href="thanks.html" class="btn btn-primary btn-lg" style="align-content: center;">Click here to Register!</a> 
+
+
+ </div>
+
+
+ <div class="footer" style="background-color:black;">
+     <div class="container pt-2">
+          <div class="row" style="justify-content: center; margin-top:10px;">
+                <div class="col-2 col-md-1 mt-1">
+                      <img src="https://img.icons8.com/fluent/50/4a90e2/gmail--v1.png" class="social-icon">
+                </div>
+                <div class="col-2 col-md-1 mt-1">
+                      <img src="https://img.icons8.com/fluent/50/000000/facebook-new.png" class="social-icon">          
+                </div>
+                <div class="col-2 col-md-1 mt-2">
+                      <img src="https://img.icons8.com/fluent/40/000000/instagram-new.png"/>               
+                </div>
+                <div class="col-2 col-md-1 mt-2">
+                      <img src="https://img.icons8.com/fluent/40/000000/twitter.png"/>               
+                </div>
+          </div>
+          <div class="row mt-1">
+                <div class="col">
+                      <p style="font-size:3vh;text-align:center;color:aliceblue;">Celebrate Your dreams with Dream Garden!!</p> 
+                </div>
+          </div>  
+</div> 
+
+   
+    <!-- Optional JavaScript -->
+ <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+ 
+</html>

@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+}
+/* .footer {
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+   
+    
+    color: white;
+    text-align: center;
+    margin-top:3%; */
+    display:flex;
+    justify-content:center;
+    
+ } 
+ h2{
+    color: crimson;
+    text-align:center;
+
+}
+.cap {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.social-icon {
+    display:inline !important;
+    width:35px;
+    height: 35px;
+    margin:0 5px;
+    display:flex;
+    margin-top: 9%;
+ 
+    
+}
+
